@@ -114,15 +114,4 @@
 .head {
 			font-family: JuneBug			}
 			
-			
-
-a { color: #00e; }
-a:visited { color: #551a8b; }
-a:hover { color: #06e; }
-a:focus { outline: thin dotted; }
-
-ul#top, ul#top li { }
-ul#top li {
 	
-	display: inline-block;
-	}
