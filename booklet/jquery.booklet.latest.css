@@ -106,3 +106,10 @@
 	.b-selector a .b-num         {float:right; clear:none;}
 	.b-selector a:hover          {color:#fff;}
 		
+		
+		
+		
+		
+@font-face { font-family: JuneBug; src: url('..\booklet\font\Magnolia.TTF'); } 
+.head {
+			font-family: JuneBug			}

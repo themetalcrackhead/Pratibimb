@@ -15,16 +15,16 @@
 
     <style type="text/css">
 	        body {background:#ccc; font:normal 12px/1.2 arial, verdana, sans-serif;}
-
+			
     </style>
 
 	<script type="text/javascript">
-	    $(function () {		
-	      $('#mybook').booklet({
-        menu: '#custom-menu',
-			        pageSelector: true
+	    
+$(function() {
+    $('#mybook').booklet({
+        hash: true
     });
-	    });
+});
     </script>
 
 </head>
@@ -32,21 +32,21 @@
 	<header>
 	</header>
 	<section style=" background-image:url(../booklet/images/Untitled.png); background-size:100% !important; background-repeat:no-repeat;  position:absolute; width:1000px; height:750px; top:140px; bottom:125px; left:200px;">
-	   
+		
         
 	</section>
-    <div id="mybook" style="position:absolute; top:150px; left:222px; width:940; height:670;">
+    <div id="mybook" style="top:150px; left:222px; width:940; height:670;">
 	        <div title="first page" style="border:thick dashed">
-	            <h3 align="center" style="margin-left:25px; font-size:18px; font-family:'Cry Uncial Condensed';">Litraray Section </h3>
+	            <h3 align="center" class="head" style="margin-left:25px; font-size:18px;">Litraray Section </h3>
 	            <img src="../booklet/images/lit.jpg" width="393" height="125" style="margin-left:22px; margin-right:22px; margin-bottom:3px; margin-top:3px;">
-				
+				<h3 style = "margin:10px; font-size:15px; font-family:'Courier New', Courier, monospace">About </h3>
     			</div>
-	        <div title="second page" style="border:thick dashed">
-				<a href="#ASDF"> SAFFAFFS</a>
-                
+	        <div title="second page" style="border:thick dashed;">
+				  <h3 align="center" style="margin-left:25px; font-size:18px;">About The Editors</h3>
                 </div>
-	        <div title="third page" id="Q">
-	              <div style="border:thin dashed; margin:22px ">
+	        <div title="third page" style="border:thick dashed">
+	               <h3 align="center" style="margin-left:25px; font-size:18px;">Contents </h3>
+                  <div style="border:thin dashed; margin:10px ">
 					<ul>
 						<li>
 							A Brand New Yellow
@@ -98,7 +98,7 @@
                 </div>
 	       
 	        </div>
-	        <div title="fourth page">
+	        <div title="fourth page" style="border:thick dashed">
 	            
 				<div style="border:thin dashed; margin:10px; margin-top:35px;">
 					<ul>
@@ -172,16 +172,16 @@
                 </div>
 	        
 	        </div>
-	        <div title="fifth page">
+	        <div title="fifth page" style="border:thick dashed">
 	            <h3>Page 5 </h3>
 	        </div>
-	        <div title="sixth page">
+	        <div title="sixth page" style="border:thick dashed">
 	            <h3>Page 6</h3>
 	        </div>
-	        <div title="seventh page">
+	        <div title="seventh page" style="border:thick dashed">
 	            <h3>Page 7</h3>
 	        </div>
-	        <div title="eighth page">
+	        <div title="eighth page" style="border:thick dashed">
 	            <h3>Page 8</h3>
 	        </div>
 	    </div>
