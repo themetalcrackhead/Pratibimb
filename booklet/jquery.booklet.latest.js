@@ -2072,12 +2072,12 @@
         easeIn:               'easeInQuad',                    // easing method for first half of transition
         easeOut:              'easeOutQuad',                   // easing method for second half of transition
 
-        closed:               false,                           // start with the book "closed", will add empty pages to beginning and end of book
+        closed:               true,                           // start with the book "closed", will add empty pages to beginning and end of book
         closedFrontTitle:     'Beginning',                     // used with "closed", "menu" and "pageSelector", determines title of blank starting page
         closedFrontChapter:   'Beginning of Book',             // used with "closed", "menu" and "chapterSelector", determines chapter name of blank starting page
         closedBackTitle:      'End',                           // used with "closed", "menu" and "pageSelector", determines chapter name of blank ending page
         closedBackChapter:    'End of Book',                   // used with "closed", "menu" and "chapterSelector", determines chapter name of blank ending page
-        covers:               false,                           // used with "closed", makes first and last pages into covers, without page numbers (if enabled)
+        covers:               true,                           // used with "closed", makes first and last pages into covers, without page numbers (if enabled)
         autoCenter:           false,                           // used with "closed", makes book position in center of container when closed
 
         pagePadding:          10,                              // padding for each page wrapper
@@ -2112,9 +2112,9 @@
         pause:                null,                            // selector for element to use as click trigger for pausing auto page flipping
         play:                 null,                            // selector for element to use as click trigger for restarting auto page flipping
 
-        menu:                 'Beginning',                            // selector for element to use as the menu area, required for 'pageSelector'
-        pageSelector:         true,                           // enables navigation with a drop-down menu of pages, requires 'menu'
-        chapterSelector:      true,                           // enables navigation with a drop-down menu of chapters, determined by the "rel" attribute, requires 'menu'
+        menu:                 null,                            // selector for element to use as the menu area, required for 'pageSelector'
+        pageSelector:         false,                           // enables navigation with a drop-down menu of pages, requires 'menu'
+        chapterSelector:      false,                           // enables navigation with a drop-down menu of chapters, determined by the "rel" attribute, requires 'menu'
 
         shadows:              true,                            // display shadows on page animations
         shadowTopFwdWidth:    166,                             // shadow width for top forward animation
