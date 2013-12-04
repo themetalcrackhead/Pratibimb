@@ -600,6 +600,13 @@
                        background-image: linear-gradient(top, #3498db 58%, #2a90d4 0%);
                    }
 
+       .red {
+           background-color: red;
+           background-image: -webkit-linear-gradient(top, red 58%, #F00 0%);
+           background-image: -moz-linear-gradient(top, red 58%, #F00 0%);
+           background-image: linear-gradient(top, red 58%, #F00 0%);
+       }
+
                    .grey {
                        background-color: #f8e9d1;
                        background-image: -webkit-linear-gradient(top, #f8e9d1 58%, #e7d5b7 0%);
@@ -709,15 +716,14 @@
     <div class="component">
         <ul class="align">
             <li>
-                <figure class='book'>
+                <figure class='book' style="left:-100px;top:8px">
 
                     <!-- Front -->
 
                     <ul class='hardcover_front'>
                         <li>
-                            <div class="coverDesign blue">
-                                <h1>CSS</h1>
-                                <p>BOOK</p>
+                            <div class="coverDesign red">
+                                
                             </div>
                         </li>
                         <li></li>
@@ -726,13 +732,11 @@
                     <!-- Pages -->
 
                     <ul class='page'>
-                        <li></li>
+                        
                         <li>
-                            <a class="btn" href="#">Download</a>
+                            <a class="btn" href="#" style="position:relative;top:-50px">Managerial</a>
                         </li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                        
                     </ul>
 
                     <!-- Back -->
@@ -749,6 +753,83 @@
                 </figure>
                
             </li>
+            <li>
+                <figure class='book' style="left:-100px;top:-225px">
+
+                    <!-- Front -->
+
+                    <ul class='hardcover_front'>
+                        <li>
+                            <div class="coverDesign blue">
+
+                            </div>
+                        </li>
+                        <li></li>
+                    </ul>
+
+                    <!-- Pages -->
+
+                    <ul class='page'>
+
+                        <li>
+                            <a class="btn" href="#" style="position:relative;top:-60px">Popular<br />Science</a>
+                        </li>
+
+                    </ul>
+
+                    <!-- Back -->
+
+                    <ul class='hardcover_back'>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                    <ul class='book_spine'>
+                        <li></li>
+                        <li></li>
+                    </ul>
+
+                </figure>
+
+            </li>
+            <li>
+                <figure class='book' style="left:-100px;top:-450px">
+
+                    <!-- Front -->
+
+                    <ul class='hardcover_front'>
+                        <li>
+                            <div class="coverDesign grey">
+
+                            </div>
+                        </li>
+                        <li></li>
+                    </ul>
+
+                    <!-- Pages -->
+
+                    <ul class='page'>
+
+                        <li>
+                            <a class="btn" href="#" style="position:relative;top:-50px">Technical</a>
+                        </li>
+
+                    </ul>
+
+                    <!-- Back -->
+
+                    <ul class='hardcover_back'>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                    <ul class='book_spine'>
+                        <li></li>
+                        <li></li>
+                    </ul>
+
+                </figure>
+
+            </li>
+
         </ul>
     </div>
     </body>
