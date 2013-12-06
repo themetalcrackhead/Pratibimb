@@ -107,11 +107,10 @@
 	.b-selector a:hover          {color:#fff;}
 		
 		
+h3{
+        font-family: 'Transformers Movie', sans-serif;
+}		
 		
 		
-		
-@font-face { font-family: JuneBug; src: url('..\booklet\font\Magnolia.TTF'); } 
-.head {
-			font-family: JuneBug			}
 			
 	
