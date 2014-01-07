@@ -107,9 +107,9 @@
 	.b-selector a:hover          {color:#fff;}
 		
 h2{ font-family:'webfontregular';}		
-h3{ font-family:'kingthings_italiqueregular';}
-h4{ font-family: 'kingthings_petrock_lightRg' ;}
-.font_body{ font-family:'architects_daughterregular';}
+h3{ font-family:'kingthings_italiqueregular'; font-size: 35px !important;	}
+h4{ font-family: 'kingthings_petrock_lightRg'; font-size:18px !important;}
+.font_body{ font-family:'architects_daughterregular';  font-size:40px !important;}
 
 @font-face {
     font-family: 'webfontregular';
