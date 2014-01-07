@@ -106,29 +106,55 @@
 	.b-selector a .b-num         {float:right; clear:none;}
 	.b-selector a:hover          {color:#fff;}
 		
-		
-h3,h4{ font-family: 'anudawregular' ; }
-.font_body{ font-family:'action_manregular';}
+h2{ font-family:'webfontregular';}		
+h3{ font-family:'kingthings_italiqueregular';}
+h4{ font-family: 'kingthings_petrock_lightRg' ;}
+.font_body{ font-family:'architects_daughterregular';}
 
 @font-face {
-    font-family: 'anudawregular';
-    src: url('font/font3/ANUDRG__-webfont.eot');
-    src: url('font/font3/ANUDRG__-webfont.eot?#iefix') format('embedded-opentype'),
-         url('font/font3/ANUDRG__-webfont.woff') format('woff'),
-         url('font/font3/ANUDRG__-webfont.ttf') format('truetype'),
-         url('font/font3/ANUDRG__-webfont.svg#3dumbregular') format('svg');
+    font-family: 'webfontregular';
+    src: url('font/font0/rothenbg-webfont.eot');
+    src: url('font/font0/rothenbg-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/font0/rothenbg-webfont.woff') format('woff'),
+         url('font/font0/rothenbg-webfont.ttf') format('truetype'),
+         url('font/font0/rothenbg-webfont.svg#webfontregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
-}		
-
-@font-face {
-    font-family: 'action_manregular';
-    src: url('font/font2/Action_Man-webfont.eot');
-    src: url('font/font2/Action_Man-webfont.eot?#iefix') format('embedded-opentype'),
-         url('font/font2/Action_Man-webfont.woff') format('woff'),
-         url('font/font2/Action_Man-webfont.ttf') format('truetype'),
-         url('font/font2/Action_Man-webfont.svg#action_manregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
 }
+@font-face {
+    font-family: 'kingthings_italiqueregular';
+    src: url('font/font1/Kingthings_Italique-webfont.eot');
+    src: url('font/font1/Kingthings_Italique-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/font1/Kingthings_Italique-webfont.woff') format('woff'),
+         url('font/font1/Kingthings_Italique-webfont.ttf') format('truetype'),
+         url('font/font1/Kingthings_Italique-webfont.svg#kingthings_italiqueregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'kingthings_petrock_lightRg';
+    src: url('font/font3/Kingthings_Petrock_light-webfont.eot');
+    src: url('font/font3/Kingthings_Petrock_light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/font3/Kingthings_Petrock_light-webfont.woff') format('woff'),
+         url('font/font3/Kingthings_Petrock_light-webfont.ttf') format('truetype'),
+         url('font/font3/Kingthings_Petrock_light-webfont.svg#kingthings_petrock_lightRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'architects_daughterregular';
+    src: url('font/font2/architectsdaughter-webfont.eot');
+    src: url('font/font2/architectsdaughter-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/font2/architectsdaughter-webfont.woff') format('woff'),
+         url('font/font2/architectsdaughter-webfont.ttf') format('truetype'),
+         url('font/font2/architectsdaughter-webfont.svg#architects_daughterregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
