@@ -136,11 +136,11 @@ h4{ font-family: 'kingthings_petrock_lightRg'; font-size:18px !important;}
 }
 @font-face {
     font-family: 'resagokrlight';
-    src: url('font/font_body/resagokrlight-webfont.eot');
-    src: url('font/font_body/resagokrlight-webfont.eot?#iefix') format('embedded-opentype'),
-         url('font/font_body/resagokrlight-webfont.woff') format('woff'),
-         url('font/font_body/resagokrlight-webfont.ttf') format('truetype'),
-         url('font/font_body/resagokrlight-webfont.svg#resagokrlight') format('svg');
+    src: url('font/font_body/resagokr-webfont.eot');
+    src: url('font/font_body/resagokr-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/font_body/resagokr-webfont.woff') format('woff'),
+         url('font/font_body/resagokr-webfont.ttf') format('truetype'),
+         url('font/font_body/resagokr-webfont.svg#resagokrlight') format('svg');
     font-weight: normal;
     font-style: normal;
 
