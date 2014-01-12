@@ -106,29 +106,18 @@
 	.b-selector a .b-num         {float:right; clear:none;}
 	.b-selector a:hover          {color:#fff;}
 		
-h2{ font-family:'webfontregular';font-size:40px !important;}		
-h3{ font-family:'kingthings_italiqueregular'; font-size: 30px !important;	}
+.head1{ font-family:'bearpawregular';font-size:180px !important;}		
+.head{ font-family:'bearpawregular'; font-size: 30px !important;	}
 h4{ font-family: 'kingthings_petrock_lightRg'; font-size:15px !important;}
 .font_body{ font-family:'architects_daughterregular'; font-size:11px; }
 
 @font-face {
-    font-family: 'webfontregular';
-    src: url('font/font0/rothenbg-webfont.eot');
-    src: url('font/font0/rothenbg-webfont.eot?#iefix') format('embedded-opentype'),
-         url('font/font0/rothenbg-webfont.woff') format('woff'),
-         url('font/font0/rothenbg-webfont.ttf') format('truetype'),
-         url('font/font0/rothenbg-webfont.svg#webfontregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-@font-face {
-    font-family: 'kingthings_italiqueregular';
-    src: url('font/font1/Kingthings_Italique-webfont.eot');
-    src: url('font/font1/Kingthings_Italique-webfont.eot?#iefix') format('embedded-opentype'),
-         url('font/font1/Kingthings_Italique-webfont.woff') format('woff'),
-         url('font/font1/Kingthings_Italique-webfont.ttf') format('truetype'),
-         url('font/font1/Kingthings_Italique-webfont.svg#kingthings_italiqueregular') format('svg');
+    font-family: 'bearpawregular';
+    src: url('font/font1/BEARPAW_-webfont.eot');
+    src: url('font/font1/BEARPAW_-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/font1/BEARPAW_-webfont.woff') format('woff'),
+         url('font/font1/BEARPAW_-webfont.ttf') format('truetype'),
+         url('font/font1/BEARPAW_-webfont.svg#bearpawregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
