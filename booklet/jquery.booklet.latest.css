@@ -109,7 +109,7 @@
 .head1{ font-family:'bearpawregular';font-size:180px !important;}		
 .head{ font-family:'bearpawregular'; font-size: 30px !important;	}
 h4{ font-family: 'kingthings_petrock_lightRg'; font-size:18px !important;}
-.font_body{ font-family:'caviar_dreamsregular'; font-size:16px; }
+.font_body{ font-family:'resagokrlight'; font-size:16px; }
 
 @font-face {
     font-family: 'bearpawregular';
@@ -134,14 +134,13 @@ h4{ font-family: 'kingthings_petrock_lightRg'; font-size:18px !important;}
     font-style: normal;
 
 }
-
 @font-face {
-    font-family: 'caviar_dreamsregular';
-    src: url('font/font_body/CaviarDreams-webfont.eot');
-    src: url('font/font_body/CaviarDreams-webfont.eot?#iefix') format('embedded-opentype'),
-         url('font/font_body/CaviarDreams-webfont.woff') format('woff'),
-         url('font/font_body/CaviarDreams-webfont.ttf') format('truetype'),
-         url('font/font_body/CaviarDreams-webfont.svg#caviar_dreamsregular') format('svg');
+    font-family: 'resagokrlight';
+    src: url('font/font_body/resagokrlight-webfont.eot');
+    src: url('font/font_body/resagokrlight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/font_body/resagokrlight-webfont.woff') format('woff'),
+         url('font/font_body/resagokrlight-webfont.ttf') format('truetype'),
+         url('font/font_body/resagokrlight-webfont.svg#resagokrlight') format('svg');
     font-weight: normal;
     font-style: normal;
 
