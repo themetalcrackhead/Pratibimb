@@ -109,7 +109,7 @@
 .head1{ font-family:'bearpawregular';font-size:180px !important;}		
 .head{ font-family:'bearpawregular'; font-size: 30px !important;	}
 h4{ font-family: 'kingthings_petrock_lightRg'; font-size:15px !important;}
-.font_body{ font-family:'architects_daughterregular'; font-size:11px; }
+.font_body{ font-family:'alegreya-regular'; font-size:11px; }
 
 @font-face {
     font-family: 'bearpawregular';
@@ -146,4 +146,17 @@ h4{ font-family: 'kingthings_petrock_lightRg'; font-size:15px !important;}
     font-style: normal;
 
 }
+
+
+@font-face {
+    font-family: 'alegreya-regular';
+    src: url('font/algeria/alegreya-regular.eot');
+    src: url('font/algeria/alegreya-regular.eot?#iefix') format('embedded-opentype'),
+         url('font/algeria/alegreya-regular.woff') format('woff'),
+         url('font/algeria/alegreya-regular.ttf') format('truetype'),
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 
