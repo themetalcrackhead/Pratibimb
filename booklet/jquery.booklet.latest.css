@@ -110,6 +110,7 @@
 .head{ font-family:'bearpawregular'; font-size: 40px !important;	}
 h4{ font-family: 'kingthings_petrock_lightRg'; font-size:18px !important;}
 .font_body{ font-family:'resagokrlight'; font-size:16px; }
+.byline{ font-family:'danielregular'; }
 
 @font-face {
     font-family: 'bearpawregular';
@@ -141,6 +142,18 @@ h4{ font-family: 'kingthings_petrock_lightRg'; font-size:18px !important;}
          url('font/font_body/resagokr-webfont.woff') format('woff'),
          url('font/font_body/resagokr-webfont.ttf') format('truetype'),
          url('font/font_body/resagokr-webfont.svg#resagokrlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'danielregular';
+    src: url('font/font_byline/daniel-webfont.eot');
+    src: url('font/font_byline/daniel-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/font_byline/daniel-webfont.woff') format('woff'),
+         url('font/font_byline/daniel-webfont.ttf') format('truetype'),
+         url('font/font_byline/daniel-webfont.svg#danielregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
