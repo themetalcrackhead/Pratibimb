@@ -109,7 +109,7 @@
 .head1{ font-family:'bearpawregular';font-size:180px !important;}		
 .head{ font-family:'bearpawregular'; font-size: 40px !important;	}
 h4{ font-family: 'kingthings_petrock_lightRg'; font-size:18px !important;}
-.font_body{ font-family:'resagokrlight'; font-size:16px; }
+.font_body{ font-family:'resagokrlight'; font-size:16px; text-align:justify; }
 .byline{ font-family:'danielregular'; }
 
 @font-face {
